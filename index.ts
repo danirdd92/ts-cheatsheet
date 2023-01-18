@@ -148,7 +148,7 @@ interface IsDog {
   bark: () => void;
   befriend: (dog: Dog) => void;
   eat(): void;
-  procreate(dog: Dog): Dog;
+  procreate(dog: Dog): Promise<Dog>;
 }
 
 // * interfaces can be extended like classes and also extend themselves by re-declaring themselves.
