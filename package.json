@@ -1,0 +1,13 @@
+{
+  "name": "ts-cheatsheet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "index.ts",
+  "scripts": {
+    "start": "tsc index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
